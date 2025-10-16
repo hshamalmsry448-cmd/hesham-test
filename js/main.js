@@ -1,4 +1,4 @@
-const events = [
+const charset = [
     {
         id: 'flower-show',
         title: 'Damascus International Flower Show',
