@@ -1,4 +1,4 @@
-const eventsData = [
+const events = [
     {
         id: 'flower-show',
         title: 'Damascus International Flower Show',
