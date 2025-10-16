@@ -1,0 +1,210 @@
+/* set Variables */
+:root {
+    --MainColor: #1A2D42;
+    --SecondaryColor: #2E4156;
+    --thirdColor: #AAB7B7;
+    --FourthColor: #c0c8ca;
+    --FifthColor: #D4D8DD;
+    --whiteColor: #fff;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: grid;
+}
+/* Header styles*/
+header {
+    background-color: var(--MainColor);
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header>img {
+    height: 80px;
+    display: inline-block;
+}
+nav ul, footer ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: large;
+}
+nav li, footer li {
+    display: inline-block;
+    margin: 15px;
+}
+a {
+    text-decoration: transparent;
+    color: var(--whiteColor);
+}
+a:hover {
+    color: var(--thirdColor);
+}
+/* Main styles */
+.container {
+    background-color: var(--FifthColor);
+    width: 100%;
+    min-height: 80vb;
+    padding: 0 0 40px 0;
+}
+.container>div {
+    background-color: var(--SecondaryColor);
+    padding: 10px;
+}
+h1 {
+    color: var(--FifthColor);
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    color: var(--MainColor);
+}
+.categories>div {
+    width: 120px;
+    height: 40px;
+    background-color: var(--SecondaryColor);
+    color: var(--whiteColor);
+    text-align: center;
+    line-height: 38px;
+}
+section {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+section>section {
+    margin: 40px 0 -10px 0 ;
+}
+section> div {
+    display: inline-block;
+    background-color: var(--thirdColor);
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+}
+/* Footer styles*/
+footer {
+    background-color: var(--MainColor);
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer>p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+img {
+    height: 30px;
+}
+footer >ul {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+footer li:last-child div {
+    height: 22px;
+}
+footer li:last-child img {
+    height: 22px;
+    margin: 0 2px;
+}
+/* About Us Page styles */
+.goals {
+    width: 500PX;
+    height: 60PX;
+    padding: 20px;
+}
+.goals>P {
+    text-align: center;
+    margin: 0;
+}
+section>div>div {
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    justify-items: center;
+}
+section>div>div>img {
+    margin: 15px 0 10px 0;
+    height: 180px;
+}
+section>div>div>p {
+    margin: 5px;
+}
+.Policy {
+    width: 800px;
+    height: 150px;
+}
+/* Contact Us Page Styles */
+.contact {
+    width: 400px;
+    height: 350px;
+}
+form {
+    margin: 20px;
+    display: grid;
+}
+input {
+    display: block;
+    margin: 7px 0;
+    border-radius: 4px;
+    border: 0;
+    width: 345px;
+    justify-self: center;
+}
+input[type="submit"] {
+    display: inline;
+    width: 50px;
+    margin: -10px 0 0 0;
+    justify-self: center;
+}
+input[id="massage"] {
+    height: 110px;
+    text-wrap: wrap;
+}
+
+.contact2 {
+    width: 400px;
+    height: 175px;
+    position: relative;
+}
+
+.contact2 img{
+    display: inline;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+.contact2 img:nth-child(3){
+    top: 70px;
+}
+.contact2 img:nth-child(5){
+    top: 120px;
+}
+.contact2 p {
+    margin-top: 30px;
+    padding-left: 125px;
+    position: relative;
+}
+.contact2 a{
+    color: black;
+}
+/*event details Page Styls*/
+.event {
+    margin-top: 80px;
+}
